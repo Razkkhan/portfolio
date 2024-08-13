@@ -116,7 +116,6 @@ main {
     margin: 0 auto;
 }
 
-
 /* About section Style */
 .about {
     padding: 130px;
@@ -128,7 +127,6 @@ main {
 .about-info-container {
     display: flex;
     justify-content: space-around;
-
 }
 
 .about-info {
@@ -136,3 +134,6 @@ main {
 }
 
 /* What I Do Section */
+#what-i-do-description {
+    padding: 30px 150px;
+}
