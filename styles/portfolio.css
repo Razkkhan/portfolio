@@ -27,7 +27,7 @@ body {
     font-weight: 700px;
 }
 
-.section-discription {
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -111,7 +111,10 @@ nav a {
 }
 
 /* Main Section Styles */
-
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* About section Style */
@@ -122,5 +125,14 @@ nav a {
     margin: 130px;
 }
 
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
 
 /* What I Do Section */
